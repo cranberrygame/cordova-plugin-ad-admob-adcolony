@@ -17,7 +17,7 @@
 <!--		
 	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" commit="fe6337611970ff409b1d40fb0804216030dc2bcd" />
 -->
-	<dependency id="com.cranberrygame.cordova.plugin.ad.adcolony" url="https://github.com/cranberrygame/cordova-plugin-ad-adcolony" />
+	<dependency id="com.cranberrygame.cordova.plugin.ad.adcolony" url="https://github.com/cranberrygame/cordova-plugin-ad-adcolony" commit="xxx"/>
 	
 	<!-- android -->
     <platform name="android">
