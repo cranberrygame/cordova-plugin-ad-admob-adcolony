@@ -15,6 +15,9 @@
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>
 		
+	<dependency id="com.cranberrygame.cordova.plugin.ad.adcolony" url="https://github.com/cranberrygame/cordova-plugin-ad-adcolony" />
+	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" />
+		
 	<!-- android -->
     <platform name="android">
 <!--
@@ -61,7 +64,4 @@
 		<header-file src="src/ios/GADMAdapterAdColonyInitializer.h" />		
         <source-file src="src/ios/libAdapterSDKAdColony.a" framework="true" />
 	</platform>
-	
-	<dependency id="com.cranberrygame.cordova.plugin.ad.adcolony" url="https://github.com/cranberrygame/cordova-plugin-ad-adcolony" />
-	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" />
 </plugin>
