@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.cranberrygame.cordova.plugin.ad.admob.adcolony"
-    version="1.0.2">
+    version="1.0.3">
 	
     <name>Cordova Admob-Adcolony Mediation Plugin</name>
     <description>admob-adcolony mediation</description>
@@ -33,6 +33,9 @@
 
         <source-file src="src/android/adcolony.jar" target-dir="libs" framework="true" />
 -->	
+
+		<!-- dependency -->
+		<dependency id="com.cranberrygame.cordova.plugin.ad.adcolony" url="https://github.com/cranberrygame/cordova-plugin-ad-adcolony" />
     </platform>
 	
 	<!-- ios -->
@@ -64,9 +67,11 @@
 		<framework src="UIKit.framework" />
 		<framework src="WebKit.framework" />
 -->
+
+		<!-- dependency -->
+		<dependency id="com.cranberrygame.cordova.plugin.ad.adcolony" url="https://github.com/cranberrygame/cordova-plugin-ad-adcolony" />
 	</platform>
 	
 	<!-- dependency -->
-	<dependency id="com.cranberrygame.cordova.plugin.ad.adcolony" url="https://github.com/cranberrygame/cordova-plugin-ad-adcolony" />
-    <dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" />
+	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" />	
 </plugin>
